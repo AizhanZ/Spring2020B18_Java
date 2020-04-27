@@ -1,0 +1,32 @@
+package day15_ForLoop;
+
+public class ForLoop {
+
+    public static void main(String[] args) {
+
+        for(int i = 0;  i < 5; i++){
+            System.out.println("Hello World");
+        }
+
+        System.out.println("===================");
+
+        for(int i = 1; i <= 10; i+=2 ){//i < 11 als works
+            // 1+=2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+            // i+=2: 1, 3, 5, 7, 9, 11
+            System.out.println("Hello World");
+
+        System.out.println("======================");
+
+            for(int t =1; t <= 10; ++t ) { // i++: 1,2,3,4,5,6,7,8, 9, 10
+                // i+=2: 1, 3, 5, 7, 9, 11
+                System.out.println(t+" : " + (t*t));
+            }
+            //System.out.println(i + " : " + (1*1));
+
+
+        }
+
+
+    }
+
+}
