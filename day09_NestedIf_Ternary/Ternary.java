@@ -12,7 +12,7 @@ public class Ternary {
         } else {
             result = "Odd";
         }
-        //if the if statement's body is only returning value and assigning it ot cariable then we can apply ternary
+        //if the if statement's body is only returning value and assigning it ot variable then we can apply ternary
 
         // in ternary: ? means the if, : else keyword
 

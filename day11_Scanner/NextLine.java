@@ -14,9 +14,9 @@ public class NextLine {
         System.out.println("Your full name is: "+fullName);
 
         System.out.println("Enter your sentense: ");
-        String sentensce = input.nextLine();
+        String sentence = input.nextLine();
 
-        System.out.println("You entered: "+sentensce);
+        System.out.println("You entered: "+ sentence);
 
     }
 
